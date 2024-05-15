@@ -10,6 +10,7 @@ import dev.langchain4j.service.AiServices;
 import jakarta.annotation.PostConstruct;
 import org.springframework.stereotype.Component;
 
+//this is basic ragservice where ragservice extends basicragservice
 @Component
 public class BasicRagService extends RagService {
   QuestionAnsweringAgent agent;

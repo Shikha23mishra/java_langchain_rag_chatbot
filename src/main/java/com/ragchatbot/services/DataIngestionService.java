@@ -25,6 +25,9 @@ import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Component;
 
+//this is for embedding model
+
+
 @Component
 public class DataIngestionService {
 

@@ -1,6 +1,6 @@
 ####################################################
-Author Shikha Rani
-Date 14/05/2024
+#Author Shikha Rani
+#Date 14/05/2024
 ###################################################
 
 
@@ -55,3 +55,27 @@ Ensure you have the following prerequisites installed before starting this proje
 - Right-click on the main class file and select `Run RagChatbotApplication` to initiate the Spring Boot application.
 - Check the console output for any errors. Upon successful startup, you should observe messages indicating that the application has started on port 8080.
 - Open a web browser and navigate to `http://localhost:8080/chat`. You should receive the message `Welcome to Chat Bot`, confirming the successful launch of your application.
+
+
+# project structure
+# chatbot-project/
+# ├── backend/
+# │   ├── src/
+# │   │   ├── main/
+# │   │   │   ├── java/
+# │   │   │   │   ├── com.example.chatbot/
+# │   │   │   │   │   ├── controller/
+# │   │   │   │   │   │   └── ChatController.java
+# │   │   │   │   │   ├── entity/
+# │   │   │   │   │   │   └── ChatMessage.java
+# │   │   │   │   │   ├── repository/
+# │   │   │   │   │   │   └── ChatMessageRepository.java
+# │   │   │   │   │   ├── service/
+# │   │   │   │   │   │   └── ChatService.java
+# │   │   │   │   │   └── ChatbotApplication.java
+# │   │   │   ├── resources/
+# │   │   │   │   └── application.properties
+# ├── frontend/
+# │   ├── index.html
+# │   ├── style.css
+# │   ├── script.js 

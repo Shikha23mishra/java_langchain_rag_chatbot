@@ -1,5 +1,7 @@
 package com.ragchatbot.services;
 
+//this interface is for chat constants
+
 public interface ChatConstants {
   String COLLECTION_NAME = "world_history_collection";
   Integer QDRANT_GRPC_PORT = 6334;

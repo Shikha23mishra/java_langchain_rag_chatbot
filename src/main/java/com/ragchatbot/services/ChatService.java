@@ -4,6 +4,7 @@ import com.ragchatbot.dtos.ChatRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+//here we autowired rag service
 @Component
 public class ChatService {
 

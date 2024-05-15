@@ -1,5 +1,7 @@
 package com.ragchatbot.dtos;
 
+//this is for response
+
 import lombok.Builder;
 import lombok.Data;
 

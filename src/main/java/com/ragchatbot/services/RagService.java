@@ -17,6 +17,8 @@ import dev.langchain4j.rag.content.retriever.EmbeddingStoreContentRetriever;
 import dev.langchain4j.store.embedding.EmbeddingStore;
 import dev.langchain4j.store.embedding.qdrant.QdrantEmbeddingStore;
 
+//embedding model
+
 public class RagService {
   protected ContentRetriever getEmbeddingStoreContentRetriever() {
     EmbeddingStore<TextSegment> embeddingStore =

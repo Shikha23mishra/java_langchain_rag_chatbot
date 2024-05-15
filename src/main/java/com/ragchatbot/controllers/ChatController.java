@@ -1,5 +1,7 @@
 package com.ragchatbot.controllers;
 
+//importing libray
+
 import com.ragchatbot.services.ChatService;
 import com.ragchatbot.dtos.ChatRequest;
 import com.ragchatbot.dtos.ChatResponse;
@@ -12,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+//this is restcontroller
 @RestController
 @RequestMapping("/chat")
 public class ChatController {

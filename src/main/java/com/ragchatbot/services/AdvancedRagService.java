@@ -15,6 +15,10 @@ import dev.langchain4j.service.AiServices;
 import jakarta.annotation.PostConstruct;
 import org.springframework.stereotype.Component;
 
+//importing langchain4j libraries 
+//extending ragservice
+//this is advance ragservice
+
 @Component
 public class AdvancedRagService extends RagService {
 
